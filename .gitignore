@@ -1,0 +1,74 @@
+# ==========================
+# Python cache / build files
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.spec
+
+# ==========================
+# Virtual environments
+# ==========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints
+
+# ==========================
+# Editor / IDE files
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS-generated files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs / temporary / checkpoints
+# ==========================
+*.log
+logs/
+tmp/
+checkpoints/
+wandb/
+tensorboard/
+*.pth
+*.pt
+*.ckpt
+
+# ==========================
+# Project-specific (VisNeRF)
+# ==========================
+data/
+sample_data/
+sample_log/
+output/
+assets/__pycache__/
+configs/__pycache__/
+
+# ==========================
+# Shell and runtime artifacts
+# ==========================
+*.sh~
+*.bak
+*.tmp
+*.out

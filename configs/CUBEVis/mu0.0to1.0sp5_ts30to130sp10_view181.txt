@@ -1,0 +1,55 @@
+dataset_name = visnerf
+dataset = cube
+datadir = /home/tomoyam/Work/GitHub/ViSNeRF/data/CUBEVis/mu0.0to1.0sp5_ts30to130sp10_view181
+input_res = [512,512]
+output_res = [512,512]
+expname =  mu0.0to1.0sp5_ts30to130sp10_view181
+basedir = /home/tomoyam/Work/GitHub/ViSNeRF/output
+nParams = 2
+
+## このparamsは手動で変更する必要あり
+n_lamb_params = [4, 4]
+vecSize_params = [5, 11]
+bbox = [[-2.0,-2.0,-2.0],[2.0,2.0,2.0]]
+
+n_iters = 500000
+batch_size = 8192
+
+N_voxel_init = 2097156 # 128**3
+N_voxel_final = 2097156 # 300**3
+use_AlphaMask = 0
+upsamp_list = [2000,4000,6000,8000,10000]
+update_AlphaMask_list = [6000,12000]
+
+N_vis = 3
+vis_every = 5000
+
+render_test = 1
+
+n_lamb_sigma = [16,16,16]
+n_lamb_sh = [48,48,48]
+model_name = ViSNeRF
+
+
+shadingMode = MLP_Fea
+fea2denseAct = softplus
+
+view_pe = 2
+fea_pe = 2
+
+L1_weight_inital = 8e-5
+L1_weight_rest = 4e-5
+rm_weight_mask_thre = 1e-4
+
+TV_weight_density = 0
+TV_weight_app = 1.0
+
+## please uncomment following configuration if hope to training on cp model
+#model_name = TensorCP
+#n_lamb_sigma = [96]
+#n_lamb_sh = [288]
+#N_voxel_final = 125000000 # 500**3
+#L1_weight_inital = 1e-5
+#L1_weight_rest = 1e-5
+
+
