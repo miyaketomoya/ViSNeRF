@@ -12,7 +12,7 @@ n_lamb_params = [4, 4]
 vecSize_params = [5, 11]
 bbox = [[-2.0,-2.0,-2.0],[2.0,2.0,2.0]]
 
-n_iters = 500000
+n_iters = 100000
 batch_size = 8192
 
 N_voxel_init = 2097156 # 128**3

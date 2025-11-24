@@ -11,8 +11,8 @@ DATA_BASE="/home/tomoyam/Work/GitHub/ViSNeRF/data/${SIM_NAME}"    # 例: /home/.
 
 # === 1行=5要素: [0]=学習、[1]~[4]=eval ===
 PAIRS=(
-  # "mu0.0to1.0sp5_ts30to130sp10_view142 mu0.125to0.875sp2_ts30to130sp10_view1201_for_eval mu0.5to0.5sp1_ts30to130sp10_view_142_for_time_eval mu0.125to0.125sp1_ts30to130sp10_view142_for_sim_eval mu0.5to0.5sp1_ts30to130sp10_view1201_for_view_eval"
-  # "mu0.0to1.0sp5_ts30to130sp10_view143 mu0.125to0.875sp2_ts30to130sp10_view1201_for_eval mu0.5to0.5sp1_ts30to130sp10_view_143_for_time_eval mu0.125to0.125sp1_ts30to130sp10_view143_for_sim_eval mu0.5to0.5sp1_ts30to130sp10_view1201_for_view_eval"
+  "mu0.0to1.0sp5_ts30to130sp10_view142 mu0.125to0.875sp2_ts30to130sp10_view1201_for_eval mu0.5to0.5sp1_ts30to130sp10_view_142_for_time_eval mu0.125to0.125sp1_ts30to130sp10_view142_for_sim_eval mu0.5to0.5sp1_ts30to130sp10_view1201_for_view_eval"
+  "mu0.0to1.0sp5_ts30to130sp10_view143 mu0.125to0.875sp2_ts30to130sp10_view1201_for_eval mu0.5to0.5sp1_ts30to130sp10_view_143_for_time_eval mu0.125to0.125sp1_ts30to130sp10_view143_for_sim_eval mu0.5to0.5sp1_ts30to130sp10_view1201_for_view_eval"
   "mu0.0to1.0sp5_ts30to130sp10_view181 mu0.125to0.875sp2_ts30to130sp10_view1201_for_eval mu0.5to0.5sp1_ts30to130sp10_view_181_for_time_eval mu0.125to0.125sp1_ts30to130sp10_view181_for_sim_eval mu0.5to0.5sp1_ts30to130sp10_view1201_for_view_eval"
   "mu0.0to1.0sp5_ts30to130sp10_view182 mu0.125to0.875sp2_ts30to130sp10_view1201_for_eval mu0.5to0.5sp1_ts30to130sp10_view_182_for_time_eval mu0.125to0.125sp1_ts30to130sp10_view182_for_sim_eval mu0.5to0.5sp1_ts30to130sp10_view1201_for_view_eval"
 )
